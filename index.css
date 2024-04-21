@@ -34,18 +34,22 @@ body {
     display: flex;
     flex-direction: column;
     width: 8.5%;
+    transition: background-color 0.2s ;
 }
 
 .dropdown-button {
     padding-left: 4%;
     padding-top: 3.3vh;
     padding-right: 4%;
+    padding-bottom: 12.6%;
     width: fit-content;
+    transition: background-color 0.2s ;
 }
 
 .dropdown-content {
     display: none;
     width: 95.3%;
+    transition: background-color 0.2s ;
 }
 
 .dropdown:hover .dropdown-content {
@@ -56,7 +60,6 @@ body {
 }
 
 .dropdown:hover .dropdown-button {
-    padding-bottom: 12.6%;
     background-color: #38a7d7;
     color: #fefefe;
 }
@@ -71,6 +74,7 @@ body {
     text-align: left;
     background-color: #1c2640;
     width: 100%;
+    transition: background-color 0.2s ;
 }
 
 .dropdown-content a:hover {
@@ -82,18 +86,22 @@ body {
     display: flex;
     flex-direction: column;
     width: 7%;
+    transition: background-color 0.2s ;
 }
 
 .dropdown-button2 {
     padding-left: 6%;
     padding-top: 3.3vh;
     padding-right: 6%;
+    padding-bottom: 15.5%;
     width: 89px;
+    transition: background-color 0.2s ;
 }
 
 .dropdown-content2 {
     display: none;
     width: 94%;
+    transition: background-color 0.2s ;
 }
 
 .dropdown2:hover .dropdown-content2 {
@@ -104,7 +112,6 @@ body {
 }
 
 .dropdown2:hover .dropdown-button2 {
-    padding-bottom: 15%;
     background-color: #38a7d7;
     color: #fefefe;
 }
@@ -119,6 +126,7 @@ body {
     text-align: left;
     background-color: #1c2640;
     width: 100%;
+    transition: background-color 0.2s ;
 }
 
 .dropdown-content2 a:hover {
@@ -130,17 +138,21 @@ body {
     display: flex;
     flex-direction: column;
     width: 5.5%;
+    transition: background-color 0.2s ;
 }
 
 .dropdown-button3 {
     padding-left: 6%;
     padding-top: 3.3vh;
     padding-right: 6%;
+    padding-bottom: 19.5%;
     width: 70px;
+    transition: background-color 0.2s ;
 }
 
 .dropdown-content3 {
     display: none;
+    transition: background-color 0.2s ;
 }
 
 .dropdown3:hover .dropdown-content3 {
@@ -152,7 +164,6 @@ body {
 }
 
 .dropdown3:hover .dropdown-button3 {
-    padding-bottom: 19%;
     background-color: #38a7d7;
     color: #fefefe;
 }
@@ -167,6 +178,7 @@ body {
     text-align: left;
     background-color: #1c2640;
     width: 150.4%;
+    transition: background-color 0.2s ;
 }
 
 .dropdown-content3 a:hover {
@@ -184,6 +196,7 @@ body {
     margin-bottom: 1.65vh;
     padding-top: 1.2vh;
     width: 54px;
+    transition: background-color 0.2s ;
 }
 
 .login:hover {
@@ -200,6 +213,7 @@ body {
     width: 67px;
     border: 1px solid #141b2e;
     background-color: #141b2e;
+    transition: background-color 0.2s ;
 }
 
 .signup:hover {
@@ -232,7 +246,6 @@ body {
     top: 50%;
     left: 35%;
     z-index: 1;
-
 }
 
 .search-container input[type="text"] {
@@ -281,6 +294,7 @@ body {
 
 .quicklinks a{
     color: #fefefe;
+    transition: color 0.2s ;
 }
 
 .quicklinks a:hover{
