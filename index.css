@@ -221,7 +221,7 @@ body {
     position: absolute;
     color: #fefefe;
     font-size: 200%;
-    top: 20%;
+    top: 23%;
     left: 24.8%;
     z-index: 1;
 }
@@ -229,7 +229,7 @@ body {
 .search-container {
     width: 430px;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 35%;
     z-index: 1;
 
